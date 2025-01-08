@@ -15,10 +15,11 @@ int countDigits(int n) {
             
         if(lastDigit == 0){
                 
-        }else if(originalNumber % lastDigit == 0 ){
+        }
+        else if(originalNumber % lastDigit == 0 ){
             count++;
         }
-            
+              
         n = n / 10;
     }
     return count;
